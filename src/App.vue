@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Banco Rangel"/>
+  <CardCredit>
+  </CardCredit>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CardCredit from './components/CardCredit.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CardCredit
   }
 }
 </script>
@@ -23,4 +27,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
